@@ -6,6 +6,9 @@ use App\Models\User;
 
 class UsersController extends Controller 
 {
+    /**
+     * Display the specified resource.
+     */
     public function show() 
     {
         $sql = User::filter([

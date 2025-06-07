@@ -1,4 +1,4 @@
-# Laravel 11 協助避免為過濾 Eloquent 模型撰寫自訂查詢邏輯
+# Laravel 12 協助避免為過濾 Eloquent 模型撰寫自訂查詢邏輯
 
 引入 indexzer0 的 eloquent-filtering 套件來擴增協助避免為過濾 Eloquent 模型撰寫自訂查詢邏輯，從 HTTP 請求參數過濾模型的主要使用案例是透過簡單地在模型上定義允許的過濾器並將過濾器從 HTTP 請求傳遞到模型來實現的。
 
@@ -26,5 +26,5 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/wwxn5EF.png)
+![](https://i.imgur.com/5KGl5FK.png)
 > 不用手動連結查詢條件，而是抽象化流程，進而實現可讀性和可維護性
